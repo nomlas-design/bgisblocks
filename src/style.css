@@ -1,0 +1,71 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.875rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.025rem;
+  transition: background-color 0.3s ease-out;
+  color: white;
+  background-color: #1c3d6d;
+}
+@media (min-width: 640px) {
+  .btn {
+    min-width: 12.75rem;
+  }
+}
+.btn__label {
+  color: white;
+  padding-right: 1rem;
+  flex-grow: 1;
+}
+.btn__label:hover {
+  color: white;
+}
+.btn__arrow {
+  background: url('./assets/icon_arrow.svg') no-repeat;
+  background-position: 0% 50%;
+  width: 51px;
+  height: 14px;
+  position: relative;
+  transition: background-position 0.3s ease-out;
+}
+.btn__line {
+  height: 30px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.25);
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+.btn:hover {
+  background-color: #254f8d;
+}
+.btn:hover .btn__arrow {
+  background-position: 100% 50%;
+}
+.btn:hover .btn__line {
+  opacity: 1;
+}
+.btn--secondary {
+  background-color: #7799c2;
+}
+.btn--secondary:hover {
+  background-color: #7799c2;
+}
+.btn--white {
+  background-color: white;
+  color: #1c3d6d;
+}
+.btn--white:hover {
+  background-color: white;
+}
+.btn--white .btn__label {
+  color: #1c3d6d;
+}
+.btn--white .btn__arrow {
+  background: url('./assets/icon_arrow--blue.svg') no-repeat;
+}
+.btn--white .btn__line {
+  background-color: #1c3c6d 34;
+}

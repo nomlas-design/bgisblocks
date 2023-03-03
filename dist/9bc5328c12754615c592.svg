@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="stroke-white fill-none" width="21" height="14"><defs><symbol id="icon-arrow-right" iconset="ui" viewBox="0 0 22.207 15.414">
+        <title>Arrow - Right</title>
+        <desc>An arrow pointing right</desc>
+        <g transform="translate(-235 -795.793)">
+            <line x2="21" transform="translate(235.5 803.5)" stroke-linecap="round" stroke-width="1"></line>
+            <line x2="7" y2="7" transform="translate(249.5 796.5)" stroke-linecap="round" stroke-width="1"></line>
+            <line y1="7" x2="7" transform="translate(249.5 803.5)" stroke-linecap="round" stroke-width="1"></line>
+        </g>
+    </symbol></defs><use xlink:href="#icon-arrow-right" stroke="#FFFFFF" fill-opacity="0" fill="#000000"></use></svg>
